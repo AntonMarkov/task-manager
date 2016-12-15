@@ -1,0 +1,295 @@
+body {
+  background: rgb(234, 234, 234) !important;
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+.task_list {
+  width: calc(100% - 300px);
+  top: 0;
+  left: 300.52px;
+  position: absolute;
+}
+.navigation {
+  width: 300.52px;
+  height: 100%;
+  position: fixed;
+  background: rgba(112, 222, 255, 0.20);
+  left: 0;
+  top: 0;
+  overflow: auto;
+}
+.navigation ul {
+  width: 260px;
+  height: 50%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.add_or_delete {
+  right: 0;
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  margin-top: 15px;
+}
+.add_or_delete a {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+}
+.form_for_task {
+  width: 50%;
+  top: 25%;
+  bottom: 25%;
+  height: 50%;
+  left: 25%;
+  right: 25%;
+  background: rgb(221, 221, 221);
+  position: absolute;
+}
+.task_name {
+  margin: 30px;
+  width: 25%;
+}
+.light_window {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(14, 14, 14, 0.83);
+  top: 0;
+  left: 0;
+}
+.search {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+}
+.text_input {
+  width: 350px;
+  height: 25px;
+  left: 20%;
+  margin-top: 10px;
+  position: absolute;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-size: 25px;
+  background: white;
+}
+.navigation ul {
+  list-style: none;
+  font-size: 20px;
+  left: 0;
+  top: 90px;
+  position: absolute;
+}
+.navigation a {
+  text-decoration: none;
+}
+.hr {
+  width: 300px;
+  position: absolute;
+  background-color: #888888;
+  border: none;
+  height: 2px;
+  left: 0;
+}
+.nav-2 {
+  width: 100%;
+  height: 100px;
+  background: gray;
+}
+.task {
+  width: 98%;
+  height: 70px;
+  background: rgb(200, 200, 200);
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.status {
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+.date {
+  right: 20px;
+  margin-top: 5px;
+  height: 30px;
+  position: absolute;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  line-height: 1.42857143;
+  color: #333 !important;
+}
+.date-2 {
+  right: 50%;
+  width: 300px;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  font-size: 30px;
+}
+.todo {
+  background: red;
+}
+.done {
+  background: green;
+}
+.mark_as_done {
+  display: none;
+}
+.span_status {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  text-align: center;
+  right: 20px;
+  font-family: fantasy;
+  font-size: 20px;
+  padding: 5px 0px 0px 0px;
+  position: absolute;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.text {
+  margin-top: 23px;
+  font-size: 21px;
+  width: 90%;
+  position: absolute;
+}
+.user {
+  width: 300.52px;
+  height: 100px;
+  background: gray;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+#hour {
+  text-align: center;
+  top: 20px;
+  left: 120px;
+  position: absolute;
+}
+#options {
+  left: 0;
+  width: 260px;
+  margin-top: 10px;
+}
+.btn-add {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  background: orange;
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+  left: 115px;
+  top: 80%;
+  transition: 1s;
+  position: absolute;
+}
+* {
+  outline: none;
+}
+.btn-add:hover {
+  color: orange;
+  background: rgba(255, 255, 255, 0);
+}
+.form {
+  display: none;
+  bottom: 60px;
+  width: 300.52px;
+  height: 350px;
+  position: absolute;
+}
+.menu {
+  width: 200px;
+  background: gray;
+  position: fixed;
+  border-radius: 10px;
+  text-align: center;
+  top: 110px;
+  left: 50px;
+  font-size: 20px;
+}
+.form input[type="text"] {
+  width: 250px;
+  left: 25px;
+  position: absolute;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  bottom: 0px;
+  text-align: center;
+  font-size: 15px;
+}
+.user_img img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(0,150,255);
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+.user_img {
+  width: 62px;
+  height: 62px;
+  margin: 10px;
+  position: absolute;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  background: rgb(0,150,255);
+}
+.username {
+  left: 80px;
+  top: 20px;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  padding: 15px 0px 0px 0px;
+  position: absolute;
+}
+.loader {
+  color: rgb(0,150,255);
+  background: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(93, 93, 93, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(93, 93, 93, 0.8);
+}
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: 15px;
+  }
+}
