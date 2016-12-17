@@ -153,19 +153,7 @@
         <ul>
         </ul>
       </nav>
-      <span class="menu">
-        <a href="../upload/" style="margin-top: 10px;">
-          <i class="fa fa-upload" aria-hidden="true"></i> Файлове
-        </a>
-        <br>
-        <a href="../expiration_date/" style="margin-top: 10px;">
-          <i class="fa fa-file-text-o" aria-hidden="true"></i> Срокове
-        </a>
-        <hr color="#adaaaa">
-        <a href="../user/index?out=yes">
-          <i class="fa fa-user-times" aria-hidden="true"></i> Излизане
-        </a>
-      </span>
+      <?php include '../system/parts/menu.php'; ?>
 
     </div>
     <!-- end of navigation -->
